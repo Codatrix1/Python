@@ -1,12 +1,22 @@
 # -----------------------------------------------------
 # Creating a Own Objects with a custom class in Python
 # -----------------------------------------------------
+
+"""
+1) Object Oriented Programming allows us to create our own objects that have their own method like "run"
+and properties or attributes like name
+2) OOP allows us to write code that is repeatable, well organized and also memory efficient
+
+"""
+
+
 class PlayerCharacter:
     # Constructor function: self is like "this" keyword in JavaScript
     def __init__(self, name, age):
-        self.name = name
+        self.name = name  # attributes
         self.age = age
 
+    # method
     def run(self):
         return "Run Forest Run"
 
