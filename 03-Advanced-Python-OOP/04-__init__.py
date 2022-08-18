@@ -1,6 +1,7 @@
 class PlayerCharacter:
 
     # init is the constructor or the initial state of a Class: with default params
+    # Note: The __init__() function is called automatically every time the class is being used to create a new object.
     def __init__(self, name="anonymous", age=0):
         if age > 18:
             self.name = name  # attribute
