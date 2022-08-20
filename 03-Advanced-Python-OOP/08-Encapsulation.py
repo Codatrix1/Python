@@ -1,3 +1,15 @@
+# IMPORTANT 🌟🌟🌟🌟
+
+# -------------------------
+# Four  Pillars of OOP
+# ------------------------
+
+# 1- Encapsulation 🌟
+# 2 - Abstraction 🌟
+# 3 - Inheritence 🌟
+# 4 - Polymorphism 🌟
+
+
 # ---------------------------------------------------
 # What is Encapsulation and why do we require it?
 # ---------------------------------------------------
