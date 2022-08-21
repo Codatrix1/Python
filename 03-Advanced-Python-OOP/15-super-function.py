@@ -62,6 +62,7 @@ class User:
 
 class Wizard(User):
     def __init__(self, name, power, email):
+        # Super allows us to refer "User", as Parent Class, and we do not require us to pass "self" with init
         super().__init__(email)
         self.name = name
         self.power = power
